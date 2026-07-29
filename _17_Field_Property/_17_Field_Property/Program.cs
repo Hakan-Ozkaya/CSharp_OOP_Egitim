@@ -7,8 +7,8 @@
             insan i1=new insan("Erkek");
             i1.Isim = "Hakan Özkaya";
             i1.Yas = 23;
-            i1.Boy = 125;
-            Console.WriteLine(i1.Isim+" "+i1.Yas+" "+i1.Cinsiyet/*i1.Boy  Burada İ1.Boy Propertysi Private Get Methodu İle Kullanıldığı için Çağırılamıyor Ancak üstteki gibi değiştirilebiliyor*/);
+            i1.Boy = 125;///Alt Satırda Buradan Bahsediyorum
+            Console.WriteLine(i1.Isim+" "+i1.Yas+" "+i1.Cinsiyet/*i1.Boy*//*  Burada İ1.Boy Propertysi Private Get Methodu İle Kullanıldığı için Çağırılamıyor Ancak üstteki gibi değiştirilebiliyor*/);
 
               
         }
